@@ -1,0 +1,25 @@
+--- [SYSTEM] PACK: 'hugo' (*.orig.tar.xz)
+File 'hugo_0.101.0.orig.tar.xz' found!
+--- [SYSTEM] BUILD: 'github.com/unixstore/debian-hugo.git'
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building hugo using existing ./hugo_0.101.0.orig.tar.xz
+dpkg-source: warning: ignoring deletion of file hugo, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file LICENSE, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file README.md, use --include-removal to override
+dpkg-source: info: building hugo in hugo_0.101.0-1000.debian.tar.xz
+dpkg-source: info: building hugo in hugo_0.101.0-1000.dsc
+File 'hugo_0.101.0-1000.dsc' found!
+Build completed!
+--- [SYSTEM] MOVE: '/root/git/src' -> '/root/git/dst'
+Removing old files from repository...
+Moving new files to repository...
+renamed '/root/git/src/_service' -> '/root/git/dst/_service'
+renamed '/root/git/src/_meta' -> '/root/git/dst/_meta'
+renamed '/root/git/src/README.md' -> '/root/git/dst/README.md'
+renamed '/root/git/src/LICENSE' -> '/root/git/dst/LICENSE'
+renamed '/root/git/src/hugo_0.101.0-1000.debian.tar.xz' -> '/root/git/dst/hugo_0.101.0-1000.debian.tar.xz'
+renamed '/root/git/src/hugo_0.101.0.orig.tar.xz' -> '/root/git/dst/hugo_0.101.0.orig.tar.xz'
+renamed '/root/git/src/hugo_0.101.0.orig.tar.xz.sha256' -> '/root/git/dst/hugo_0.101.0.orig.tar.xz.sha256'
+renamed '/root/git/src/hugo_0.101.0-1000.dsc' -> '/root/git/dst/hugo_0.101.0-1000.dsc'
+renamed '/root/git/src/build.log' -> '/root/git/dst/build.log'
+/bin/mv: cannot stat '/root/git/src/*.sha256': No such file or directory
