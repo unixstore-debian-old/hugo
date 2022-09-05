@@ -30,3 +30,4 @@ renamed '/root/git/src/hugo_0.101.0-1000.debian.tar.xz' -> '/root/git/dst/hugo_0
 renamed '/root/git/src/hugo_0.101.0.orig.tar.xz' -> '/root/git/dst/hugo_0.101.0.orig.tar.xz'
 renamed '/root/git/src/hugo_0.101.0-1000.dsc' -> '/root/git/dst/hugo_0.101.0-1000.dsc'
 renamed '/root/git/src/build.log' -> '/root/git/dst/build.log'
+Copy GitHub Action 'mirror.yml' to repository...
